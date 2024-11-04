@@ -22,7 +22,7 @@ public class Paginaprincipal extends AppCompatActivity {
             return insets;
         });
 
-        findViewById(R.id.boton_go2).setOnClickListener(v -> {
+        findViewById(R.id.imageButton1).setOnClickListener(v -> {
             Intent intent = new Intent(Paginaprincipal.this, Paginapj.class);
             startActivity(intent);
         });
